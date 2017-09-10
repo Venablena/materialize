@@ -12,3 +12,19 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.fa {
+  color: #3daa79;
+  padding: 36%;
+  border-radius: 50%;
+  background-color: white;
+  margin: 6%;
+}
+
+.fa-3x {
+  padding: 6%;
+}
+
+ .fa-check {
+   background-color: #3daa79;
+ }

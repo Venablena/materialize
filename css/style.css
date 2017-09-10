@@ -6,25 +6,54 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
+/*.icon-block {
   padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
+}*/
 
-.fa {
-  color: #3daa79;
+td > .fa {
+  color: MediumSeaGreen;
   padding: 36%;
-  border-radius: 50%;
   background-color: white;
   margin: 6%;
 }
 
-.fa-3x {
+.withIcon {
+  text-align: center;
+}
+
+.fa {
+  color: white;
   padding: 6%;
+  border-radius: 50%;
 }
 
  .fa-check {
-   background-color: #3daa79;
+   background-color: MediumSeaGreen;
  }
+
+ .fa-laptop {
+   background-color: Tomato;
+ }
+
+.fa-download {
+  background-color: LightSkyBlue;
+}
+
+.collection {
+  color: initial;
+  border: 0;
+}
+
+.collection-header {
+  border-bottom: 0 !important;
+}
+
+.collection-header.active,
+.collection-item.active {
+  background-color: SeaGreen !important;
+}
+
+nav {
+  background-color: #444444;
+  box-shadow: none;
+}
